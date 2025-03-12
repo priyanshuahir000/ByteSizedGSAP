@@ -2,35 +2,109 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --green-glow: rgba(74, 222, 128, 0.2);
+}
+
+body {
+  @apply bg-zinc-950 font-sans;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-zinc-900;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-green-800 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-green-700;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation for links */
+a {
+  @apply transition-all duration-300;
+}
+
 @layer components {
   code {
-    @apply font-mono text-sm bg-zinc-900 text-orange-400 p-1
+    @apply font-mono text-sm bg-zinc-900/70 text-green-400 p-1 rounded
   }
 
   h1 {
     @apply text-3xl font-bold text-zinc-50
   }
+
   h2 {
     @apply text-xl font-bold text-zinc-50 mb-4
   }
 
   main {
-    @apply mx-auto max-w-3xl ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl min-h-screen p-10
+    @apply mx-auto max-w-3xl bg-black border border-green-500/20 xl:max-w-5xl min-h-screen p-10
   }
 
   a {
-    @apply text-blue-400 hover:text-blue-500
+    @apply text-green-400 hover:text-green-500
   }
 
   button {
-    @apply bg-slate-500 hover:bg-slate-600 text-zinc-50 px-4 py-2 rounded-md
+    @apply bg-green-500 hover:bg-green-600 text-black px-4 py-2 rounded-md font-medium transition-all
   }
 }
 
 @layer utilities {
   .container {
-    @apply mx-auto max-w-3xl ring-1 bg-zinc-900 ring-zinc-300/20 xl:max-w-5xl min-h-screen p-10
+    @apply mx-auto max-w-3xl bg-black border border-green-500/20 xl:max-w-5xl min-h-screen p-10
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-blue-500
+  }
+
+  .bg-blur {
+    @apply backdrop-blur-md bg-zinc-900/50
+  }
+
+  .header-link {
+    @apply inline-flex items-center gap-2 text-white/80 hover:text-green-400 transition-colors py-2
   }
 }
 
-/* */
+/* Custom animation keyframes */
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Green glow effects */
+.text-glow {
+  text-shadow: 0 0 10px var(--green-glow);
+}
+
+.box-glow {
+  box-shadow: 0 0 20px var(--green-glow);
+}
