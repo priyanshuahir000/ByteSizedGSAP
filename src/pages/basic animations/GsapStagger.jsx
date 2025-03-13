@@ -1,5 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { Link } from "react-router-dom";
 
 const GsapStagger = () => {
   useGSAP(() => {
@@ -18,6 +19,27 @@ const GsapStagger = () => {
   }, []);
   return (
     <main>
+      <div className="flex items-center gap-3 mb-6">
+        <Link to="/" className="header-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          Back
+        </Link>
+      </div>
+
       <h1>GsapStagger</h1>
 
       <p className="mt-5 text-gray-500">

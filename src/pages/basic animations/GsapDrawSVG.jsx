@@ -54,7 +54,7 @@ const GsapDrawSVG = () => {
   return (
     <main>
       <div className="flex items-center gap-3 mb-6">
-        <Link to="/home" className="header-link">
+        <Link to="/" className="header-link">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

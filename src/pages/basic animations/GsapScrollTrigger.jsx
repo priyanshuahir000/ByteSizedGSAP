@@ -2,32 +2,57 @@ import { ScrollTrigger } from "gsap/all";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const GsapScrollTrigger = () => {
   const scrollRef = useRef();
 
-  useGSAP(() => {
-    const boxes = gsap.utils.toArray(scrollRef.current.children);
-    boxes.forEach((box) => {
-      gsap.to(box, {
-        x: 500,
-        rotation: 360,
-        borderRadius: "100%",
-        scrollTrigger: {
-          trigger: box,
-          start: "bottom bottom",
-          end: "top 20%",
-          scrub: true,
-        },
-        ease: "power1.inOut",
+  useGSAP(
+    () => {
+      const boxes = gsap.utils.toArray(scrollRef.current.children);
+      boxes.forEach((box) => {
+        gsap.to(box, {
+          x: 500,
+          rotation: 360,
+          borderRadius: "100%",
+          scrollTrigger: {
+            trigger: box,
+            start: "bottom bottom",
+            end: "top 20%",
+            scrub: true,
+          },
+          ease: "power1.inOut",
+        });
       });
-    });
-  }, {scope: scrollRef});
+    },
+    { scope: scrollRef }
+  );
 
   return (
     <main>
+      <div className="flex items-center gap-3 mb-6">
+        <Link to="/" className="header-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          Back
+        </Link>
+      </div>
+
       <h1>GsapScrollTrigger</h1>
 
       <p className="mt-5 text-gray-500">
