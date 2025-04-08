@@ -18,12 +18,14 @@ import {
   Gsap3DEffects,
   GsapReveal,
 } from "./pages";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/examples" element={<ExamplesPage />} />
         <Route path="/gsap-to" element={<GsapTo />} />
         <Route path="/gsap-from" element={<GsapFrom />} />
         <Route path="/gsap-fromto" element={<GsapFromTo />} />
@@ -45,7 +47,8 @@ function App() {
   );
 }
 
-const Home = () => {
+// Examples page that lists all available animations
+const ExamplesPage = () => {
   const animations = [
     { path: "/gsap-to", name: "GSAP To" },
     { path: "/gsap-from", name: "GSAP From" },
@@ -67,6 +70,27 @@ const Home = () => {
 
   return (
     <main className="p-10">
+      <div className="flex items-center gap-3 mb-10">
+        <Link to="/" className="header-link">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 19l-7-7m0 0l7-7m-7 7h18"
+            />
+          </svg>
+          Back to Home
+        </Link>
+      </div>
+
       <h1 className="text-center mb-10">GSAP Animation Examples</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {animations.map((animation) => (
