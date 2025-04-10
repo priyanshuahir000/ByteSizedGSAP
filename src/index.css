@@ -4,6 +4,11 @@
 
 :root {
   --green-glow: rgba(74, 222, 128, 0.2);
+  --green-500-rgb: 74, 222, 128;
+  --blue-500-rgb: 59, 130, 246;
+  --purple-500-rgb: 168, 85, 247;
+  --amber-500-rgb: 245, 158, 11;
+  --cyan-500-rgb: 6, 182, 212;
 }
 
 body {
@@ -79,6 +84,45 @@ a {
   .header-link {
     @apply inline-flex items-center gap-2 text-white/80 hover:text-green-400 transition-colors py-2
   }
+
+  /* New utility classes for our enhanced UI */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(74, 222, 128, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(74, 222, 128, 0.05) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .bg-radial-gradient {
+    background: radial-gradient(circle at center, rgba(74, 222, 128, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
+  }
+
+  .text-shadow-green {
+    text-shadow: 0 0 20px rgba(74, 222, 128, 0.5);
+  }
+
+  /* 3D effects */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  .preserve-3d {
+    transform-style: preserve-3d;
+  }
+
+  .backface-hidden {
+    backface-visibility: hidden;
+  }
+
+  .transform-gpu {
+    transform: translateZ(0);
+    will-change: transform;
+  }
+
+  .perspective-text {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+  }
 }
 
 /* Custom animation keyframes */
@@ -107,4 +151,43 @@ a {
 
 .box-glow {
   box-shadow: 0 0 20px var(--green-glow);
+}
+
+/* Additional cube animation */
+@keyframes float-rotate {
+  0% {
+    transform: translateY(0) rotateX(0) rotateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px) rotateX(180deg) rotateY(180deg);
+  }
+
+  100% {
+    transform: translateY(0) rotateX(360deg) rotateY(360deg);
+  }
+}
+
+.cube-float {
+  animation: float-rotate 15s ease-in-out infinite;
+}
+
+.section-3d-cube {
+  pointer-events: none;
+  opacity: 0.6;
+  animation: float-rotate 20s ease-in-out infinite;
+}
+
+/* Card hover effects */
+.feature-card,
+.category-example-card,
+.getting-started-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover,
+.category-example-card:hover,
+.getting-started-card:hover {
+  transform: translateY(-5px) rotateX(5deg);
+  box-shadow: 0 10px 25px -5px rgba(74, 222, 128, 0.1);
 }
