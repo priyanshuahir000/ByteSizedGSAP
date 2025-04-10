@@ -51,7 +51,7 @@ a {
   }
 
   main {
-    @apply mx-auto max-w-3xl bg-black border border-green-500/20 xl:max-w-5xl min-h-screen p-10
+    @apply mx-auto bg-black border border-green-500/20 min-h-screen p-10
   }
 
   a {
