@@ -115,6 +115,22 @@ const LandingPage = () => {
         </svg>
       ),
     },
+    {
+      title: "UI Components",
+      description: "Animated UI components ready to use in your projects",
+      examples: ["GSAP Form"],
+      color: "bg-emerald-500",
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="w-8 h-8"
+        >
+          <path d="M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 0 1 .878.645 49.17 49.17 0 0 1 .376 5.452.657.657 0 0 1-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 0 0-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.774 48.774 0 0 1-.595 4.845.75.75 0 0 1-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 0 1-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 0 1-.658.643 49.118 49.118 0 0 1-4.708-.36.75.75 0 0 1-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 0 0 5.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 0 0 .659-.663 47.703 47.703 0 0 0-.31-4.82.75.75 0 0 1 .83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 0 0 .657-.642Z" />
+        </svg>
+      ),
+    },
   ];
 
   useGSAP(() => {
@@ -626,418 +642,417 @@ const LandingPage = () => {
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className="w-6 h-6"
-                  >
+                  ></svg>
                     <path d="M11.25 5.337c0-.355-.186-.676-.401-.959a1.647 1.647 0 0 1-.349-1.003c0-1.036 1.007-1.875 2.25-1.875S15 2.34 15 3.375c0 .369-.128.713-.349 1.003-.215.283-.401.604-.401.959 0 .332.278.598.61.578 1.91-.114 3.79-.342 5.632-.676a.75.75 0 0 1 .878.645 49.17 49.17 0 0 1 .376 5.452.657.657 0 0 1-.66.664c-.354 0-.675-.186-.958-.401a1.647 1.647 0 0 0-1.003-.349c-1.035 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401.31 0 .557.262.534.571a48.774 48.774 0 0 1-.595 4.845.75.75 0 0 1-.61.61c-1.82.317-3.673.533-5.555.642a.58.58 0 0 1-.611-.581c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.035-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959a.641.641 0 0 1-.658.643 49.118 49.118 0 0 1-4.708-.36.75.75 0 0 1-.645-.878c.293-1.614.504-3.257.629-4.924A.53.53 0 0 0 5.337 15c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.036 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.369 0 .713.128 1.003.349.283.215.604.401.959.401a.656.656 0 0 0 .659-.663 47.703 47.703 0 0 0-.31-4.82.75.75 0 0 1 .83-.832c1.343.155 2.703.254 4.077.294a.64.64 0 0 0 .657-.642Z" />
-                  </svg>
+                  </svg>tle: "3D Effects",
                 ),
-                title: "Layout Transitions",
+                title: "Layout Transitions",unning 3D animations and effects using GSAP combined with CSS 3D transforms for immersive user experiences.",
                 description:
-                  "Implement smooth layout transitions with GSAP's Flip plugin, allowing elements to animate naturally between different states.",
+                  "Implement smooth layout transitions with GSAP's Flip plugin, allowing elements to animate naturally between different states.",p((feature, index) => (
               },
-              {
-                icon: (
+              {y={index}
+                icon: (feature-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/5 transition-all"
                   <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns="http://www.w3.org/2000/svg" <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 text-green-400">
                     viewBox="0 0 24 24"
                     fill="currentColor"
-                    className="w-6 h-6"
+                    className="w-6 h-6"assName="text-xl font-bold text-white mb-2">
                   >
                     <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
-                  </svg>
+                  </svg>assName="text-gray-400">{feature.description}</p>
                 ),
                 title: "3D Effects",
-                description:
+                description:>
                   "Create stunning 3D animations and effects using GSAP combined with CSS 3D transforms for immersive user experiences.",
-              },
+              },n>
             ].map((feature, index) => (
-              <div
-                key={index}
-                className="feature-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/5 transition-all"
-              >
+              <div      <section
+                key={index}tegories"
+                className="feature-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 hover:shadow-lg hover:shadow-green-500/5 transition-all"Ref}
+              > py-16 px-4 overflow-hidden"
                 <div className="w-12 h-12 bg-green-500/20 rounded-lg flex items-center justify-center mb-4 text-green-400">
-                  {feature.icon}
-                </div>
+                  {feature.icon} <div className="max-w-7xl mx-auto">
+                </div>xl font-bold text-white text-center mb-4">
                 <h3 className="text-xl font-bold text-white mb-2">
                   {feature.title}
-                </h3>
-                <p className="text-gray-400">{feature.description}</p>
+                </h3>assName="text-gray-400 text-center max-w-3xl mx-auto mb-16">
+                <p className="text-gray-400">{feature.description}</p>to
               </div>
             ))}
           </div>
-        </div>
+        </div>          <div className="categories-container space-y-16">
       </section>
-
-      <section
+-section">
+      <section">
         id="categories"
-        ref={categoriesRef}
+        ref={categoriesRef}assName={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-black transform-gpu transition-transform hover:scale-110`}
         className="relative py-16 px-4 overflow-hidden"
-      >
+      > {category.icon}
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">assName="text-2xl font-bold text-white">
             Animation Categories
           </h2>
           <p className="text-gray-400 text-center max-w-3xl mx-auto mb-16">
-            Our 16 interactive examples are organized into five categories to
+            Our 16 interactive examples are organized into five categories tossName="text-gray-400 mb-8 max-w-3xl">
             help you find exactly what you need.
           </p>
 
-          <div className="categories-container space-y-16">
+          <div className="categories-container space-y-16">                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {categories.map((category, index) => (
               <div key={index} className="category-section">
-                <div className="flex items-center gap-4 mb-6">
-                  <div
-                    className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-black transform-gpu transition-transform hover:scale-110`}
+                <div className="flex items-center gap-4 mb-6">={i}
+                  <div{example.toLowerCase().replace(/\s+/g, "-")}`}
+                    className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center text-black transform-gpu transition-transform hover:scale-110`}r border-green-500/20 rounded-lg p-5 hover:border-green-500/40 hover:bg-zinc-900/70 transition-all transform-gpu"
                   >
-                    {category.icon}
+                    {category.icon} <h4 className="text-green-400 font-semibold mb-2">
                   </div>
                   <h3 className="text-2xl font-bold text-white">
-                    {category.title}
+                    {category.title}assName="text-sm text-gray-500">Explore example →</p>
                   </h3>
                 </div>
-                <p className="text-gray-400 mb-8 max-w-3xl">
+                <p className="text-gray-400 mb-8 max-w-3xl">>
                   {category.description}
                 </p>
-
+>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                  {category.examples.map((example, i) => (
+                  {category.examples.map((example, i) => (n>
                     <Link
-                      key={i}
-                      to={`/${example.toLowerCase().replace(/\s+/g, "-")}`}
-                      className="category-example-card bg-zinc-900/50 border border-green-500/20 rounded-lg p-5 hover:border-green-500/40 hover:bg-zinc-900/70 transition-all transform-gpu"
-                    >
+                      key={i}      <section
+                      to={`/${example.toLowerCase().replace(/\s+/g, "-")}`}tting-started"
+                      className="category-example-card bg-zinc-900/50 border border-green-500/20 rounded-lg p-5 hover:border-green-500/40 hover:bg-zinc-900/70 transition-all transform-gpu"ef}
+                    >16 px-4 bg-black/40 overflow-hidden"
                       <h4 className="text-green-400 font-semibold mb-2">
-                        {example}
-                      </h4>
+                        {example} <div className="max-w-7xl mx-auto">
+                      </h4>xl font-bold text-white text-center mb-4">
                       <p className="text-sm text-gray-500">Explore example →</p>
                     </Link>
-                  ))}
-                </div>
+                  ))}assName="text-gray-400 text-center max-w-3xl mx-auto mb-16">
+                </div>e
               </div>
             ))}
           </div>
-        </div>
-      </section>
+        </div>          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      </section>order border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
 
       <section
         id="getting-started"
-        ref={gettingStartedRef}
-        className="relative py-16 px-4 bg-black/40 overflow-hidden"
+        ref={gettingStartedRef}assName="text-gray-400 mb-6">
+        className="relative py-16 px-4 bg-black/40 overflow-hidden"to()</code> method to learn how
       >
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">
-            Getting Started
-          </h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-white text-center mb-4">k
+            Getting Started"/gsap-to"
+          </h2>xt-green-400 hover:text-green-500 inline-flex items-center gap-1"
           <p className="text-gray-400 text-center max-w-3xl mx-auto mb-16">
-            New to GSAP? Start with these foundational examples to learn the
+            New to GSAP? Start with these foundational examples to learn the View Example
             basics.
-          </p>
+          </p>lns="http://www.w3.org/2000/svg"
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="getting-started-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
               <h3 className="text-xl font-bold text-white mb-4">
-                1. Basic Animation
-              </h3>
-              <p className="text-gray-400 mb-6">
+                1. Basic Animation <path
+              </h3>lRule="evenodd"
+              <p className="text-gray-400 mb-6">0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
                 Start with the basic <code>gsap.to()</code> method to learn how
                 to animate properties from their current state to a new state.
-              </p>
+              </p>g>
               <Link
                 to="/gsap-to"
                 className="text-green-400 hover:text-green-500 inline-flex items-center gap-1"
-              >
+              >            <div className="getting-started-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
                 View Example
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                  viewBox="0 0 20 20"assName="text-gray-400 mb-6">
+                  fill="currentColor"nimations with precise control
                   className="w-5 h-5"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
+                  <pathk
+                    fillRule="evenodd""/gsap-timeline"
+                    d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"en-400 hover:text-green-500 inline-flex items-center gap-1"
                     clipRule="evenodd"
-                  />
+                  /> View Example
                 </svg>
-              </Link>
+              </Link>lns="http://www.w3.org/2000/svg"
             </div>
 
             <div className="getting-started-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
               <h3 className="text-xl font-bold text-white mb-4">
-                2. Timeline Animations
-              </h3>
-              <p className="text-gray-400 mb-6">
+                2. Timeline Animations <path
+              </h3>lRule="evenodd"
+              <p className="text-gray-400 mb-6">0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
                 Learn how to sequence multiple animations with precise control
                 using GSAP timelines.
-              </p>
+              </p>g>
               <Link
                 to="/gsap-timeline"
                 className="text-green-400 hover:text-green-500 inline-flex items-center gap-1"
-              >
+              >            <div className="getting-started-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
                 View Example
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                  viewBox="0 0 20 20"assName="text-gray-400 mb-6">
+                  fill="currentColor"ents for engaging typography
                   className="w-5 h-5"
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
+                  <pathk
+                    fillRule="evenodd""/gsap-text"
+                    d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"-green-400 hover:text-green-500 inline-flex items-center gap-1"
                     clipRule="evenodd"
-                  />
+                  /> View Example
                 </svg>
-              </Link>
+              </Link>lns="http://www.w3.org/2000/svg"
             </div>
 
             <div className="getting-started-card bg-zinc-900/70 border border-green-500/20 rounded-xl p-6 hover:border-green-500/40 transition-all transform-gpu">
               <h3 className="text-xl font-bold text-white mb-4">
-                3. Text Animation
-              </h3>
-              <p className="text-gray-400 mb-6">
+                3. Text Animation <path
+              </h3>lRule="evenodd"
+              <p className="text-gray-400 mb-6">0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
                 Explore how to animate text elements for engaging typography
                 effects and enhanced readability.
-              </p>
+              </p>g>
               <Link
                 to="/gsap-text"
                 className="text-green-400 hover:text-green-500 inline-flex items-center gap-1"
               >
-                View Example
+                View Examplen>
                 <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"      <section
+                  viewBox="0 0 20 20"taRef}
+                  fill="currentColor"elative py-20 px-4 bg-gradient-to-b from-black to-zinc-900 overflow-hidden"
                   className="w-5 h-5"
-                >
-                  <path
+                > <div className="max-w-5xl mx-auto text-center">
+                  <path text-white mb-6 perspective-text">
                     fillRule="evenodd"
                     d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
-                    clipRule="evenodd"
-                  />
+                    clipRule="evenodd"assName="text-gray-300 text-xl mb-10 max-w-3xl mx-auto">
+                  />nsform
                 </svg>
               </Link>
-            </div>
-          </div>
-        </div>
+            </div>k
+          </div>"/examples"
+        </div>ine-flex items-center px-8 py-4 bg-green-500 text-black font-bold rounded-lg hover:bg-green-400 transition-all transform-gpu hover:scale-105"
       </section>
-
+ Start Exploring
       <section
-        ref={ctaRef}
+        ref={ctaRef}lns="http://www.w3.org/2000/svg"
         className="relative py-20 px-4 bg-gradient-to-b from-black to-zinc-900 overflow-hidden"
       >
-        <div className="max-w-5xl mx-auto text-center">
+        <div className="max-w-5xl mx-auto text-center">ml-2"
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 perspective-text">
-            Ready to Master GSAP Animations?
-          </h2>
-          <p className="text-gray-300 text-xl mb-10 max-w-3xl mx-auto">
+            Ready to Master GSAP Animations? <path
+          </h2>lRule="evenodd"
+          <p className="text-gray-300 text-xl mb-10 max-w-3xl mx-auto">0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
             Dive into our collection of 16 interactive examples and transform
             your web animations skills today.
-          </p>
+          </p>g>
           <Link
             to="/examples"
-            className="inline-flex items-center px-8 py-4 bg-green-500 text-black font-bold rounded-lg hover:bg-green-400 transition-all transform-gpu hover:scale-105"
+            className="inline-flex items-center px-8 py-4 bg-green-500 text-black font-bold rounded-lg hover:bg-green-400 transition-all transform-gpu hover:scale-105"n>
           >
-            Start Exploring
+            Start Exploring      <footer className="bg-zinc-900 border-t border-green-500/20 py-12 px-4">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3.org/2000/svg"md:grid-cols-4 gap-8">
               viewBox="0 0 20 20"
-              fill="currentColor"
-              className="w-5 h-5 ml-2"
+              fill="currentColor"v className="flex items-center gap-2 mb-4">
+              className="w-5 h-5 ml-2"500 flex items-center justify-center">
             >
-              <path
+              <pathlns="http://www.w3.org/2000/svg"
                 fillRule="evenodd"
                 d="M5 10a.75.75 0 0 1 .75-.75h6.638L10.23 7.29a.75.75 0 1 1 1.04-1.08l3.5 3.25a.75.75 0 0 1 0 1.08l-3.5 3.25a.75.75 0 1 1-1.04-1.08l2.158-1.96H5.75A.75.75 0 0 1 5 10Z"
-                clipRule="evenodd"
+                clipRule="evenodd"text-black"
               />
-            </svg>
-          </Link>
-        </div>
+            </svg> <path
+          </Link>lRule="evenodd"
+        </div>75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
       </section>
 
-      <footer className="bg-zinc-900 border-t border-green-500/20 py-12 px-4">
+      <footer className="bg-zinc-900 border-t border-green-500/20 py-12 px-4">g>
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-8">className="text-white font-bold text-xl">
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <div className="w-8 h-8 rounded-md bg-green-500 flex items-center justify-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
+                  <svgssName="text-gray-400">
+                    xmlns="http://www.w3.org/2000/svg"teractive GSAP animation examples to
                     viewBox="0 0 24 24"
                     fill="currentColor"
                     className="w-5 h-5 text-black"
                   >
-                    <path
-                      fillRule="evenodd"
+                    <path            <div>
+                      fillRule="evenodd" className="text-white font-semibold mb-4">Quick Links</h4>
                       d="M14.615 1.595a.75.75 0 0 1 .359.852L12.982 9.75h7.268a.75.75 0 0 1 .548 1.262l-10.5 11.25a.75.75 0 0 1-1.272-.71l1.992-7.302H3.75a.75.75 0 0 1-.548-1.262l10.5-11.25a.75.75 0 0 1 .913-.143Z"
                       clipRule="evenodd"
-                    />
-                  </svg>
-                </div>
+                    />ink
+                  </svg>"/examples"
+                </div>t-gray-400 hover:text-green-400"
                 <span className="text-white font-bold text-xl">
-                  ByteSizedGSAP
+                  ByteSizedGSAP All Examples
                 </span>
               </div>
               <p className="text-gray-400">
                 A collection of concise, interactive GSAP animation examples to
-                help you master web animations.
-              </p>
+                help you master web animations.href="#features"
+              </p>gray-400 hover:text-green-400"
             </div>
-
+ Features
             <div>
               <h4 className="text-white font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 <li>
-                  <Link
-                    to="/examples"
+                  <Linkhref="#categories"
+                    to="/examples"ay-400 hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  > Categories
                     All Examples
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="#features"
+                  <ahref="#getting-started"
+                    href="#features"0 hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  > Getting Started
                     Features
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#categories"
-                    className="text-gray-400 hover:text-green-400"
+                    href="#categories"            <div>
+                    className="text-gray-400 hover:text-green-400" className="text-white font-semibold mb-4">Resources</h4>
                   >
                     Categories
                   </a>
-                </li>
+                </li>href="https://gsap.com/docs"
                 <li>
-                  <a
-                    href="#getting-started"
+                  <a"
+                    href="#getting-started"gray-400 hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  > GSAP Documentation
                     Getting Started
                   </a>
                 </li>
               </ul>
-            </div>
+            </div>href="https://gsap.com/community/forums/"
 
-            <div>
-              <h4 className="text-white font-semibold mb-4">Resources</h4>
+            <div>"
+              <h4 className="text-white font-semibold mb-4">Resources</h4>gray-400 hover:text-green-400"
               <ul className="space-y-2">
-                <li>
+                <li> GSAP Forums
                   <a
                     href="https://gsap.com/docs"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-gray-400 hover:text-green-400"
+                    className="text-gray-400 hover:text-green-400"href="https://gsap.com/resources/"
                   >
-                    GSAP Documentation
-                  </a>
+                    GSAP Documentation"
+                  </a>gray-400 hover:text-green-400"
                 </li>
-                <li>
+                <li> Learning Resources
                   <a
                     href="https://gsap.com/community/forums/"
                     target="_blank"
                     rel="noreferrer"
-                    className="text-gray-400 hover:text-green-400"
+                    className="text-gray-400 hover:text-green-400"href="https://greensock.com/showcase/"
                   >
-                    GSAP Forums
-                  </a>
+                    GSAP Forums"
+                  </a>gray-400 hover:text-green-400"
                 </li>
-                <li>
+                <li> GSAP Showcase
                   <a
                     href="https://gsap.com/resources/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-gray-400 hover:text-green-400"
-                  >
-                    Learning Resources
+                  >            <div>
+                    Learning Resources className="text-white font-semibold mb-4">
                   </a>
                 </li>
-                <li>
+                <li>lassName="space-y-2">
                   <a
-                    href="https://greensock.com/showcase/"
-                    target="_blank"
-                    rel="noreferrer"
+                    href="https://greensock.com/showcase/"ink
+                    target="_blank""/gsap-split-text"
+                    rel="noreferrer"400 hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  > SplitText
                     GSAP Showcase
                   </a>
                 </li>
-              </ul>
-            </div>
-
+              </ul>ink
+            </div>"/gsap-morph-svg"
+-400 hover:text-green-400"
             <div>
-              <h4 className="text-white font-semibold mb-4">
+              <h4 className="text-white font-semibold mb-4"> MorphSVG
                 Premium Features
               </h4>
               <ul className="space-y-2">
-                <li>
-                  <Link
-                    to="/gsap-split-text"
+                <li>ink
+                  <Link"/gsap-draw-svg"
+                    to="/gsap-split-text"y-400 hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  > DrawSVG
                     SplitText
                   </Link>
                 </li>
                 <li>
-                  <Link
+                  <Linkhref="https://greensock.com/club/"
                     to="/gsap-morph-svg"
-                    className="text-gray-400 hover:text-green-400"
-                  >
+                    className="text-gray-400 hover:text-green-400""
+                  >gray-400 hover:text-green-400"
                     MorphSVG
-                  </Link>
+                  </Link> GSAP Club
                 </li>
                 <li>
                   <Link
                     to="/gsap-draw-svg"
                     className="text-gray-400 hover:text-green-400"
                   >
-                    DrawSVG
+                    DrawSVG          <div className="border-t border-green-500/20 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
                   </Link>
-                </li>
+                </li>ed by React & GSAP.
                 <li>
-                  <a
+                  <a className="flex space-x-4 mt-4 md:mt-0">
                     href="https://greensock.com/club/"
-                    target="_blank"
-                    rel="noreferrer"
+                    target="_blank"href="https://github.com"
+                    rel="noreferrer"hover:text-green-400"
                     className="text-gray-400 hover:text-green-400"
-                  >
+                  >"
                     GSAP Club
-                  </a>
+                  </a> <span className="sr-only">GitHub</span>
                 </li>
-              </ul>
+              </ul>assName="h-6 w-6"
             </div>
           </div>
 
-          <div className="border-t border-green-500/20 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
+          <div className="border-t border-green-500/20 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center"> <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
             <p className="text-gray-500">
               © 2023 ByteSizedGSAP. Powered by React & GSAP.
             </p>
-            <div className="flex space-x-4 mt-4 md:mt-0">
-              <a
+            <div className="flex space-x-4 mt-4 md:mt-0">href="https://twitter.com"
+              <aover:text-green-400"
                 href="https://github.com"
-                className="text-gray-400 hover:text-green-400"
+                className="text-gray-400 hover:text-green-400""
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer" <span className="sr-only">Twitter</span>
               >
-                <span className="sr-only">GitHub</span>
+                <span className="sr-only">GitHub</span>assName="h-6 w-6"
                 <svg
                   className="h-6 w-6"
                   fill="currentColor"
-                  viewBox="0 0 24 24"
+                  viewBox="0 0 24 24" <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 9.99 9.99 0 01-3.127 1.195 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
                 >
                   <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
                 </svg>
               </a>
               <a
-                href="https://twitter.com"
+                href="https://twitter.com">
                 className="text-gray-400 hover:text-green-400"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span className="sr-only">Twitter</span>
-                <svg
-                  className="h-6 w-6"
+                <span className="sr-only">Twitter</span>export default LandingPage;
+                <svg                  className="h-6 w-6"
                   fill="currentColor"
                   viewBox="0 0 24 24"
                 >

@@ -14,6 +14,7 @@ import GsapParallax from "./basic animations/GsapParallax";
 import GsapMotionPath from "./basic animations/GsapMotionPath";
 import Gsap3DEffects from "./basic animations/Gsap3DEffects";
 import GsapReveal from "./basic animations/GsapReveal";
+import GsapForm from "./basic animations/GsapForm";
 
 export {
   GsapTo,
@@ -32,4 +33,5 @@ export {
   GsapMotionPath,
   Gsap3DEffects,
   GsapReveal,
+  GsapForm,
 };
