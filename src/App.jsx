@@ -17,6 +17,7 @@ import {
   GsapMotionPath,
   Gsap3DEffects,
   GsapReveal,
+  GsapForm,
 } from "./pages";
 import LandingPage from "./pages/LandingPage";
 import { useGSAP } from "@gsap/react";
@@ -44,6 +45,7 @@ function App() {
         <Route path="/gsap-motion-path" element={<GsapMotionPath />} />
         <Route path="/gsap-3d-effects" element={<Gsap3DEffects />} />
         <Route path="/gsap-reveal" element={<GsapReveal />} />
+        <Route path="/gsap-form" element={<GsapForm />} />
       </Routes>
     </Router>
   );
