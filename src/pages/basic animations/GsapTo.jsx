@@ -1,6 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { Link } from "react-router-dom";
+import CodeBlock from "../../components/CodeBlock";
 
 const GsapTo = () => {
   useGSAP(() => {
@@ -98,6 +99,25 @@ const GsapTo = () => {
         </a>{" "}
         method.
       </p>
+
+      <div className="bg-zinc-900/50 border border-green-500/20 rounded-lg p-6 mb-8">
+        <h3 className="text-lg font-bold text-white mb-4">Example Code</h3>
+        <CodeBlock
+          code={`import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+
+useGSAP(() => {
+  // Animate any element with class "box"
+  gsap.to(".box", { 
+    x: 100,
+    rotation: 360,
+    backgroundColor: "#4ade80",
+    duration: 2,
+    ease: "elastic.out(1, 0.3)"
+  });
+});`}
+        />
+      </div>
 
       <div className="mt-20">
         <h2>Repeat: -1</h2>
